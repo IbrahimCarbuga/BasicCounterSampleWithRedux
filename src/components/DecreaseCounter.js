@@ -9,7 +9,7 @@ class DecreaseCounter extends Component {
             <div>
             <button onClick={e=>{
                 this.props.dispatch(decreaseCounter())
-            }}> 1 Azalt </button>
+            }}> Decrease by 1 </button>
         </div>
         );
     }
